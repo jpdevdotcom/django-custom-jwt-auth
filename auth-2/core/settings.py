@@ -52,7 +52,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-AUTH_USER_MODEL = 'user.CustomerUser'
+AUTH_USER_MODEL = 'user.CustomUser'
 
 ROOT_URLCONF = "core.urls"
 
